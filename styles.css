@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+.logo{
+    width: 3%;
+    height: 2%;
+    margin-left: 2em;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    margin-left: 52em;
+}
+.arrow{
+    position: absolute;
+    top: 3.9%;
+    width: 0.9%;
+}
+.menu-items{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.7em;
+    margin-bottom: 1.3em;
+    margin-left: 4em;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 28px;
+    border-radius: 4px;
+}
+.acontainer{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 13em 15em 18em ;
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+.head-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+}
+.div-sect{
+    border: 1px solid transparent;
+    height: 400px;
+    width: 50%;
+}
+#one{
+    background-color: #5acda6 ;
+}
+#two{
+    background-color: #91ac41;
+    ;
+}
+#three{
+    background-color: #e4b476;
+}
+#four{
+    background-color:  #f69dad; 
+}
+.sect{
+    display: flex;
+}
+.sect-header{
+    font-size: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:white;
+    text-align: center;
+}
+.sect-sub{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+}
+.sect-img{
+    
+}
