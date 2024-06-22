@@ -7,6 +7,14 @@ li{
 a{
     text-decoration: none;
 }
+.container{
+    background-color:white;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -16,6 +24,7 @@ nav{
     width: 3%;
     height: 2%;
     margin-left: 2em;
+    margin-top: 0.2em;
 }
 ul{
     display: flex;
@@ -24,8 +33,8 @@ ul{
 }
 .arrow{
     position: absolute;
-    top: 3.9%;
-    width: 0.9%;
+    top: 41.5%;
+    width: 0.7%;
 }
 .menu-items{
     font-family: 'Poppins', sans-serif;
@@ -50,7 +59,7 @@ ul{
     background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
     background-repeat: no-repeat;
     background-size:cover ;
-    padding: 13em 15em 18em ;
+    padding: 15em 15em 14em ;
 }
 .header{
     font-family: 'Poppins', sans-serif;
@@ -72,7 +81,7 @@ ul{
 }
 .div-sect{
     border: 1px solid transparent;
-    height: 400px;
+    height: 550px;
     width: 50%;
 }
 #one{
@@ -102,10 +111,39 @@ ul{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     letter-spacing: 0.5px;
-    line-height: 1.6;
+    line-height: 1.8;
     color: white;
     text-align: center;
 }
 .sect-img{
-    
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 18%;
+}
+.bcontainer{
+    background-color:  #f7eee2;
+    padding: 1em 30em 20em;
+    line-height: 0.3;
+}
+.bcontainer > *{
+    text-align: center;
+}
+.fresh{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.subheader{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+.para{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
 }
