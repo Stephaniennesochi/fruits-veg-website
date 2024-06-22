@@ -122,8 +122,8 @@ ul{
 }
 .bcontainer{
     background-color:  #f7eee2;
-    padding: 1em 30em 20em;
-    line-height: 0.3;
+    padding: 1em 5em 4em;
+    line-height: 0.5;
 }
 .bcontainer > *{
     text-align: center;
@@ -133,7 +133,7 @@ ul{
     font-size: 24px;
     font-family: 'Caveat', cursive;
     margin: 0;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .subheader{
     font-family: 'Poppins', sans-serif;
@@ -146,4 +146,37 @@ ul{
     font-weight: 500;
     color: #8b8b99;
     letter-spacing: 0.5px;
+}
+.sect-two{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   column-gap: 7px;
+   margin-top: 70px;
+   
+}
+.div-sectt{
+    border: 1px solid transparent;
+    width: 300px;
+    height: 350px;
+}
+.item-img{
+    background-color: #e3b375;
+    width: 70px;
+    border-radius: 50%;
+    padding: 2em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.item-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.item-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #8b8b99;
 }
