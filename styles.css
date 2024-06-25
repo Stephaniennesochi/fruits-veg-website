@@ -249,8 +249,8 @@ ul{
 }
 .imagetoo{
     display: inline-block;
-    width: 25%;
-
+    width: 28.7%;
+    overflow: clip;
 }
 .subscribe-btn{
     background-color: #f69dad;
@@ -265,6 +265,12 @@ ul{
     border: transparent;
     outline: none;
     font-family: 'Poppins', sans-serif;
+}
+.subscribe-btn:hover{
+    border: 1px solid #f69dad;
+    color: #f69dad;
+    background-color:transparent ;
+    cursor: pointer;
 }
 .input-email{
     font-family: 'Poppins', sans-serif;
@@ -283,4 +289,16 @@ ul{
     margin-left: 5%;
     margin-right: 4%;
     margin-top: 4%;
+}
+footer{
+    background-color:#232323;
+    padding: 30px 0px;
+}
+.footer-element{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
