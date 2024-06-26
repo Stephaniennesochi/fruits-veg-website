@@ -289,6 +289,7 @@ ul{
     margin-left: 5%;
     margin-right: 4%;
     margin-top: 4%;
+    z-index: 3;
 }
 footer{
     background-color:#232323;
@@ -301,4 +302,19 @@ footer{
     font-size: 14px;
     letter-spacing: 0.5px;
     text-align: center;
+}
+.econtainer{
+    display: flex;
+    gap: 30px;
+    background-color:rgb(242, 252, 255) ;
+}
+.div-numbers{
+    margin-left: 11em;
+}
+.numbers{
+    font-size: 50px;
+}
+.number-p{
+    color: #5acda6;
+    margin-top: 0;
 }
