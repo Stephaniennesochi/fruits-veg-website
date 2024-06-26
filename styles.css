@@ -26,7 +26,7 @@ nav{
     margin-left: 2em;
     margin-top: 0.2em;
 }
-ul{
+.links{
     display: flex;
     gap: 60px;
     margin-left: 52em;
@@ -329,4 +329,41 @@ iframe{
     font-size: 55px;
     color: #8b8b99;
     margin-top: 2em;
+}
+.mydiv{
+    display: flex;
+    gap: 200px;
+}
+.divv{
+    margin-left: 6em;
+    padding: 0px 0px 100px;
+}
+.ddiv{
+    margin-right: 6em;
+}
+.input-box{
+    height: 50px;
+    width: 500px;
+    border-radius: 4px;
+    margin-bottom: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #8b8b99;
+    border: 1px solid #e1e1fa;
+    font-size: 16px;
+    outline: transparent;
+}
+.text-area{
+    height: 100px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: #8b8b99;
+    border: 1px solid #e1e1fa;
+    font-size: 16px;
+}
+#submit-btn{
+    background-color: #9dc91a;
+    color: #f5f6fb;
+    font-size: 16px;
+    height: 45px;
+    
 }
