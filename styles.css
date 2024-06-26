@@ -36,7 +36,7 @@ a{
     margin-left: 2.3em;
 
 }
-.dropdown#demo:active{
+.dropdown-wrapper:hover .dropdown{
     display: block;
 }
 nav{
@@ -373,6 +373,7 @@ iframe{
     font-size: 50px;
     color: #8b8b99;
     margin-top: 2em;
+    margin-bottom: 1.5em;
     font-family: 'Poppins', sans-serif;
 }
 .mydiv{
